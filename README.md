@@ -22,3 +22,22 @@ To run this project locally, clone the repository and install the dependencies:
 git clone [https://github.com/pyphystuff/neural_networks_python.git](https://github.com/pyphystuff/neural_networks_python.git)
 cd neural_networks_python
 pip install -r requirements.txt
+
+## 📂 Project Structure
+
+```text
+neural_networks_python/
+├── assets/              # Visual results and plots for documentation
+├── examples/            # Ready-to-run demonstration scripts
+│   ├── __init__.py
+│   ├── xor_gate.py      # Classic XOR logic problem
+│   ├── sine_regression.py # Non-linear function approximation
+│   └── training_monitor.py # Loss curve and convergence analysis
+├── notebooks/           # Interactive Jupyter tutorials
+│   └── regression.ipynb
+├── src/                 # Core engine (the framework)
+│   ├── __init__.py
+│   ├── engine.py        # NeuralNetwork and Layer classes
+│   └── activations.py   # Activation functions and derivatives
+├── requirements.txt     # Project dependencies
+└── README.md            # Project documentation
